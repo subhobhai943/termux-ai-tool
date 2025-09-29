@@ -2,6 +2,14 @@
 
 A powerful command-line tool for Termux that integrates with multiple AI providers, allowing you to interact with various AI models directly from your Android device's terminal.
 
+## 🏗️ Architecture
+
+The Termux AI Tool follows a modular, layered architecture designed for extensibility and security:
+
+![System Architecture](docs/architecture_diagram.png)
+
+*For detailed architecture documentation, see [docs/README.md](docs/README.md)*
+
 ## ✨ Features
 
 - 🔗 **Multi-AI Provider Support**: OpenAI (ChatGPT), Anthropic (Claude), Google Gemini, Cohere, Hugging Face
@@ -48,6 +56,13 @@ pip install -e .
 ```bash
 termux-ai --help
 ```
+
+6. **Run automated tests** (optional):
+```bash
+bash test_installation.sh
+```
+
+*For detailed installation instructions, see [INSTALLATION.md](INSTALLATION.md)*
 
 ## 🔑 API Key Setup
 
@@ -223,6 +238,8 @@ Check your environment:
 ```bash
 termux-ai --system-info
 ```
+
+*For detailed troubleshooting, see [INSTALLATION.md](INSTALLATION.md)*
 
 ## 📊 Usage Statistics
 
